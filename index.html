@@ -35,7 +35,7 @@ aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <a class="nav-link text-light naving font-weight-bold" href="#trabajos">Trabajos</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link text-light naving font-weight-bold" href="#">Contacto</a>
+      <a class="nav-link text-light naving font-weight-bold" href="#contacto">Contacto</a>
     </li>
   </ul>
 </div>
@@ -82,30 +82,53 @@ aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 </section>
 
 <section id="trabajos" class="container text-center mt-5">
-  <h2 id="Trabajos" class="display-4 font-weight-bold my-4 subtitulo">Mis trabajos</h2>
-  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <h2 class="display-4 font-weight-bold my-4 subtitulo">Mis trabajos</h2>
+  <div id="carouselExampleIndicators" class="carousel slide container mt-5" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active" data-interval="10000">
-        <img src="assets/img/Meet & coffe.png" class="img-fluid" alt="slide-1">
+      <div class="carousel-item active  text-center">
+          <div><img src="assets/img/Meet & coffe.png" class="cuppon" alt="slider1"></div>
+        </div>
+        <div class="carousel-item">
+            <div><img src="assets/img/Iguana.png" class="cuppon" alt="slider2"></div>
+          </div>
+          <div class="carousel-item">
+              <div><img src="assets/img/Suricata.png" class="cuppon" alt="slider3"></div>
+            </div>
+        <div class="carousel-item ">
+          <div><img src="assets/img/Cuppon.png" class="cuppon" alt="slider4"></div>
       </div>
-      <div class="carousel-item" data-interval="2000">
-        <img src="assets/img/Iguana.png" class="d-block w-100" alt="slide-2">
-      </div>
+      <div class="carousel-item ">
+        <div><img src="assets/img/Ricomida.png" class="cuppon" alt="slider5"></div>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</section>
-<section>
-  <h1>LAALALALALALA</h1>
+      </div>
+      </div>
 </section>
 
+<section id="contacto" class="container mt-5">
+  <h2 class="display-4 font-weight-bold my-4 subtitulo text-center">Contacto</h2>
+  <div class="typeform-widget" data-url="https://constanza756027.typeform.com/to/B0vgjW" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script> <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"> powered by <a href="https://admin.typeform.com/signup?utm_campaign=B0vgjW&utm_source=typeform.com-01DZAQVN1H97XXDG0VZP3BRFS0-free&utm_medium=typeform&utm_content=typeform-embedded-poweredbytypeform&utm_term=ES" style="color: #999" target="_blank">Typeform</a> </div>
+  </section>
+
+  <footer class="p-3 text-center text-light">
+    <a href="https://www.instagram.com"><i class="fab fa-instagram fa-5x"></i></a>
+    <a href="https://twitter.com"><i class="fab fa-twitter-square fa-5x"></i></a>
+    <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-5x"></i></a>
+        </footer>
+
+    <!--Script para incluir Java script -->
+    <!--jQuery 3.3.1-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+   <!--Popper JS 1.14.3-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+   <!--Bootstrap JS 4.1.3-->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
   </body>
 </html>
